@@ -50,14 +50,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-[x] - initialize git and create github repo
-[x] - npm init
-[x] - install react and react-dom styled-components
-[x] - create src folder and build React component
-[x] - modify gitignore to add few more folders and files
-[x] - install webpack, webpack-cli, babel-loader, @babel/core, @babel/preset-env, @babel/preset-react, css-loader, style-loader, html-webpack-plugin, webpack-dev-server
-[x] - set babel presets in package.json file
-[x] - create webpack config file
+- [x] initialize git and create github repo
+- [x] npm init
+- [x] install react and react-dom styled-components
+- [x] create src folder and build React component
+- [x] modify gitignore to add few more folders and files
+- [x] install webpack, webpack-cli, babel-loader, @babel/core, @babel/preset-env, @babel/preset-react, css-loader, style-loader, html-webpack-plugin, webpack-dev-server
+- [x] set babel presets in package.json file
+- [x] create webpack config file
 
 
 ### Built with
