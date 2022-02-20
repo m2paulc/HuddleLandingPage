@@ -58,6 +58,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [x] install webpack, webpack-cli, babel-loader, @babel/core, @babel/preset-env, @babel/preset-react, css-loader, style-loader, html-webpack-plugin, webpack-dev-server
 - [x] set babel presets in package.json file
 - [x] create webpack config file
+- [x] create the App main component
+- [x] create Header component
+- [x] create theme and set global settings
+- [x] Build Header component and set media query for mobile 
 
 
 ### Built with
@@ -79,9 +83,23 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Setup Global Styles for css resets so it will look as intended in any browser. 
 
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+import React from "react";
+import ReactDOM from "react-dom";
+import { Container } from "./components/styles/Container.styled";
+
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Container>
+          <h1>React</h1>
+        </Container>
+      </>
+    );
+  }
 }
+
+ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 ### Continued development
