@@ -10,7 +10,7 @@ export default function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src={process.env.NODE_ENV.PUBLIC_URL + '/images/logo.svg'} alt='logo'></Logo>
+          <Logo src='./images/logo.svg' alt='logo'></Logo>
           <StyledButton>Try it Free</StyledButton>
         </Nav>
         <Flex>

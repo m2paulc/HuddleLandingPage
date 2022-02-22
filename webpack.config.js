@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ASSET_PATH = process.env.NODE_ENV.PUBLIC_URL || '/';
 
 let mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
