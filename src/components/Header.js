@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container } from './styles/Container.styled';
-import logo from '../images/logo.svg';
-import illustrationMockup from '../images/illustration-mockups.svg';
 import { StyledHeader, Nav, Logo, Image } from './styles/Header.styled';
 import { StyledButton } from './styles/Button.styled';
 import { Flex } from './styles/Flex.styled';
@@ -12,7 +10,7 @@ export default function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src={logo} alt='logo'></Logo>
+          <Logo src='./images/logo.svg' alt='logo'></Logo>
           <StyledButton>Try it Free</StyledButton>
         </Nav>
         <Flex>
@@ -21,9 +19,9 @@ export default function Header() {
             <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in geniune discussion.</p>
             <StyledButton bg={({ theme }) => theme.colors.primaryButton} color='#fff'>Get Started for Free</StyledButton>
           </div>
-          <Image src={illustrationMockup} alt=''></Image>
+          <Image src='./images/illustration-mockups.svg' alt=''></Image>
         </Flex>
       </Container>
-    </StyledHeader>
+    </StyledHeader >
   );
 }

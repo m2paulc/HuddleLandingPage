@@ -4,6 +4,8 @@ import GlobalStyles from "./components/styles/Global.styled";
 import { ThemeProvider } from "styled-components";
 import { Container } from "./components/styles/Container.styled";
 import Header from "./components/Header";
+import content from './content';
+import Card from "./components/Card";
 
 const theme = {
   colors: {
@@ -23,6 +25,9 @@ class App extends React.Component {
         <Header />
         <Container>
           <h1>React</h1>
+          {content.map((item, index) => (
+            <Card item={item} key={index} />
+          ))}
         </Container>
       </ThemeProvider>
     );
