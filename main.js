@@ -841,7 +841,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Header() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Header_styled__WEBPACK_IMPORTED_MODULE_2__.StyledHeader, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Container_styled__WEBPACK_IMPORTED_MODULE_1__.Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Header_styled__WEBPACK_IMPORTED_MODULE_2__.Nav, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Header_styled__WEBPACK_IMPORTED_MODULE_2__.Logo, {
-    src: "development".PUBLIC_URL + '/images/logo.svg',
+    src: "./images/logo.svg",
     alt: "logo"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Button_styled__WEBPACK_IMPORTED_MODULE_3__.StyledButton, null, "Try it Free")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Flex_styled__WEBPACK_IMPORTED_MODULE_4__.Flex, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Build The Comunity Your Fans will Love"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in geniune discussion."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Button_styled__WEBPACK_IMPORTED_MODULE_3__.StyledButton, {
     bg: function bg(_ref) {
