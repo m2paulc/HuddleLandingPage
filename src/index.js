@@ -6,6 +6,7 @@ import { Container } from "./components/styles/Container.styled";
 import Header from "./components/Header";
 import content from './content';
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 const theme = {
   colors: {
@@ -29,6 +30,7 @@ class App extends React.Component {
             <Card item={item} key={index} />
           ))}
         </Container>
+        <Footer />
       </ThemeProvider>
     );
   }

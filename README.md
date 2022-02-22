@@ -65,6 +65,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [x] create card content for card template. This will feed into the card component.
 - [x] include the public folder in the root directory and get images from public. This is needed to dynamically bring in the images for the card component.
 - [x] style the card component
+- [x] create footer component
+- [x] style footer component
 
 
 ### Built with
