@@ -29,7 +29,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      favicon: './public/images/favicon-32x32.png',
+    }),
   ],
   devtool: 'source-map',
   devServer: {

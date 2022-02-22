@@ -25,7 +25,6 @@ class App extends React.Component {
         <GlobalStyles />
         <Header />
         <Container>
-          <h1>React</h1>
           {content.map((item, index) => (
             <Card item={item} key={index} />
           ))}
