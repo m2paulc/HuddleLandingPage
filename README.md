@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Design](./design/mobile-design.jpg)
-![Desktop Design](./design/desktop-design.jpg)
+<img src="./design/mobile-design.jpg" width=18% height=50%/>
+<img src="./design/desktop-design.jpg" width=50% height=50%/>
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
