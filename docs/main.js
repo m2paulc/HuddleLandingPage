@@ -1041,7 +1041,7 @@ var _templateObject;
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  --props-variant-primary-color: hsl(322 100% 66%); \n  --props-variant-light-blue: hsl(193 100% 96%); \n\n  *,\n  *::before,\n  *::after {\n    margin: 0;\n    box-sizing: border-box;\n  }\n\n  html,\n  body {\n    height: 100%;\n  }\n\n  body {\n    background-color: ", ";\n    font-family: 'Poppins', sans-serif;\n    font-size: 1.15em;\n    line-height: 1.5;\n    -webkit-font-smoothing: antialiased;\n  }\n  \n  img,\n  picture,\n  svg {\n    display: block;\n    max-width: 100%;\n  }\n\n  @media(max-width: ", ") {\n    body {\n      font-size: 1.1rem;\n      line-height: 1.1;\n    }\n    \n  }\n"])), function (_ref) {
+var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  *,\n  *::before,\n  *::after {\n    margin: 0;\n    box-sizing: border-box;\n  }\n\n  html,\n  body {\n    height: 100%;\n  }\n\n  body {\n    background-color: ", ";\n    font-family: 'Poppins', sans-serif;\n    font-size: 1.15em;\n    line-height: 1.5;\n    -webkit-font-smoothing: antialiased;\n  }\n  \n  img,\n  picture,\n  svg {\n    display: block;\n    max-width: 100%;\n  }\n\n  @media(max-width: ", ") {\n    body {\n      font-size: 1.1rem;\n      line-height: 1.1;\n    }\n    \n  }\n"])), function (_ref) {
   var theme = _ref.theme;
   return theme.colors.body;
 }, function (_ref2) {
