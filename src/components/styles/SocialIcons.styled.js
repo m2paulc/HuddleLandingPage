@@ -4,10 +4,11 @@ export const StyledSocialIcons = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  li {
+  ul {
+    display: flex;
     list-style: none;
   }
-  a {
+  li a {
     border: 1px solid #fff;
     border-radius: 50%;
     color: #fff;

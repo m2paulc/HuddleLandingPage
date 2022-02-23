@@ -805,7 +805,8 @@ __webpack_require__.r(__webpack_exports__);
 
 function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Footer_styled__WEBPACK_IMPORTED_MODULE_4__.StyledFooter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Container_styled__WEBPACK_IMPORTED_MODULE_2__.Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "./images/logo_white.svg"
+    src: "./images/logo_white.svg",
+    alt: "logo"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Flex_styled__WEBPACK_IMPORTED_MODULE_3__.Flex, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: "./images/icon-location.svg",
     alt: ""
@@ -877,13 +878,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function SocialIcons() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_SocialIcons_styled__WEBPACK_IMPORTED_MODULE_1__.StyledSocialIcons, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://twitter.com"
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_SocialIcons_styled__WEBPACK_IMPORTED_MODULE_1__.StyledSocialIcons, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "https://twitter.com",
+    "aria-label": "Twitter link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaTwitter, null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://facebook.com"
+    href: "https://facebook.com",
+    "aria-label": "Facebook link"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaFacebook, null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://linkedin.com"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaLinkedin, null))));
+    href: "https://linkedin.com",
+    "aria-label": "Linkedin link"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaLinkedin, null)))));
 }
 
 /***/ }),
@@ -1104,7 +1108,7 @@ var _templateObject;
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var StyledSocialIcons = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  li {\n    list-style: none;\n  }\n  a {\n    border: 1px solid #fff;\n    border-radius: 50%;\n    color: #fff;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    margin-right: 10px;\n    height: 40px;\n    width: 40px;\n    text-decoration: none;\n  }\n"])));
+var StyledSocialIcons = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  ul {\n    display: flex;\n    list-style: none;\n  }\n  li a {\n    border: 1px solid #fff;\n    border-radius: 50%;\n    color: #fff;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    margin-right: 10px;\n    height: 40px;\n    width: 40px;\n    text-decoration: none;\n  }\n"])));
 
 /***/ }),
 
