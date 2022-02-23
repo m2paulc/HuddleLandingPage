@@ -751,6 +751,35 @@ var unitlessKeys = {
 
 /***/ }),
 
+/***/ "./src/components/CallToActionCard.js":
+/*!********************************************!*\
+  !*** ./src/components/CallToActionCard.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CallToActionCard)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _styles_Button_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Button.styled */ "./src/components/styles/Button.styled.js");
+/* harmony import */ var _styles_CallToActionCard_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/CallToActionCard.styled */ "./src/components/styles/CallToActionCard.styled.js");
+
+
+
+function CallToActionCard() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_CallToActionCard_styled__WEBPACK_IMPORTED_MODULE_2__.StyledActionCard, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Ready to Build Your Community"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_Button_styled__WEBPACK_IMPORTED_MODULE_1__.StyledButton, {
+    bg: function bg(_ref) {
+      var theme = _ref.theme;
+      return theme.colors.primaryButton;
+    },
+    color: "#fff"
+  }, "Get Started for Free")));
+}
+
+/***/ }),
+
 /***/ "./src/components/Card.js":
 /*!********************************!*\
   !*** ./src/components/Card.js ***!
@@ -919,6 +948,27 @@ var StyledButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].but
   var theme = _ref3.theme;
   return theme.mobile;
 });
+
+/***/ }),
+
+/***/ "./src/components/styles/CallToActionCard.styled.js":
+/*!**********************************************************!*\
+  !*** ./src/components/styles/CallToActionCard.styled.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "StyledActionCard": () => (/* binding */ StyledActionCard)
+/* harmony export */ });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _templateObject;
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+
+var StyledActionCard = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: relative;\n  min-width: 375px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 3.75rem 0;\n\n  & div {\n    position: absolute;\n    width: 359px;\n    height: 196px;\n    bottom: -72px;\n    border-radius: 20px;\n    box-shadow: 0 0 10px hsl(12 0% 45%);\n    background-color: #fff;\n    display: inline-flex;\n    flex-direction: column;\n    justify-content: center;\n\n    & h2 {\n      font-size: 1.15rem;\n      text-align: center;\n      margin-bottom: 1rem;\n    }\n\n    & button {\n      width: 290px;\n      margin: 0 auto;\n    }\n  }\n"])));
 
 /***/ }),
 
@@ -38475,12 +38525,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _components_styles_Global_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/styles/Global.styled */ "./src/components/styles/Global.styled.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _components_styles_Container_styled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/styles/Container.styled */ "./src/components/styles/Container.styled.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Header */ "./src/components/Header.js");
 /* harmony import */ var _content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./content */ "./src/content.js");
 /* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Card */ "./src/components/Card.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Footer */ "./src/components/Footer.js");
+/* harmony import */ var _components_CallToActionCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/CallToActionCard */ "./src/components/CallToActionCard.js");
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -38502,6 +38553,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -38536,14 +38588,14 @@ var App = /*#__PURE__*/function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(styled_components__WEBPACK_IMPORTED_MODULE_8__.ThemeProvider, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(styled_components__WEBPACK_IMPORTED_MODULE_9__.ThemeProvider, {
         theme: theme
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_styles_Global_styled__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_styles_Container_styled__WEBPACK_IMPORTED_MODULE_3__.Container, null, _content__WEBPACK_IMPORTED_MODULE_5__["default"].map(function (item, index) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
           item: item,
           key: index
         });
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CallToActionCard__WEBPACK_IMPORTED_MODULE_8__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 
