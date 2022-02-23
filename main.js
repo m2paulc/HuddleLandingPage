@@ -968,7 +968,10 @@ var _templateObject;
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var StyledActionCard = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: relative;\n  min-width: 375px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 3.75rem 0;\n\n  & div {\n    position: absolute;\n    width: 359px;\n    height: 196px;\n    bottom: -72px;\n    border-radius: 20px;\n    box-shadow: 0 0 10px hsl(12 0% 45%);\n    background-color: #fff;\n    display: inline-flex;\n    flex-direction: column;\n    justify-content: center;\n\n    & h2 {\n      font-size: 1.15rem;\n      text-align: center;\n      margin-bottom: 1rem;\n    }\n\n    & button {\n      width: 290px;\n      margin: 0 auto;\n    }\n  }\n"])));
+var StyledActionCard = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: relative;\n  min-width: 375px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 3.75rem 0;\n\n  & div {\n    position: absolute;\n    width: 440px;\n    height: 196px;\n    bottom: -72px;\n    border-radius: 20px;\n    box-shadow: 0 0 10px hsl(12 0% 45%);\n    background-color: #fff;\n    display: inline-flex;\n    flex-direction: column;\n    justify-content: center;\n\n    @media(max-width:", ") {\n      width: 375px;\n    }\n\n    & h2 {\n      font-size: 1.15rem;\n      text-align: center;\n      margin-bottom: 1rem;\n    }\n\n    & button {\n      width: 296px;\n      margin: 0 auto;\n    }\n  }\n"])), function (_ref) {
+  var theme = _ref.theme;
+  return theme.mobile;
+});
 
 /***/ }),
 
