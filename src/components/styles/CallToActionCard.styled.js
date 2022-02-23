@@ -10,7 +10,7 @@ export const StyledActionCard = styled.div`
 
   & div {
     position: absolute;
-    width: 359px;
+    width: 440px;
     height: 196px;
     bottom: -72px;
     border-radius: 20px;
@@ -20,6 +20,10 @@ export const StyledActionCard = styled.div`
     flex-direction: column;
     justify-content: center;
 
+    @media(max-width:${({ theme }) => theme.mobile}) {
+      width: 375px;
+    }
+
     & h2 {
       font-size: 1.15rem;
       text-align: center;
@@ -27,7 +31,7 @@ export const StyledActionCard = styled.div`
     }
 
     & button {
-      width: 290px;
+      width: 296px;
       margin: 0 auto;
     }
   }
