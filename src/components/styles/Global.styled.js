@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-  --props-variant-primary-color: hsl(322 100% 66%); 
-  --props-variant-light-blue: hsl(193 100% 96%); 
-
   *,
   *::before,
   *::after {
