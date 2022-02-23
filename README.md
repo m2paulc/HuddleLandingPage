@@ -66,6 +66,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [x] style the card component
 - [x] create footer component
 - [x] style footer component
+- [x] add social icons in the footer (use react-icons)
 
 
 ### Built with
